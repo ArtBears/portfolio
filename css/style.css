@@ -1,0 +1,142 @@
+
+
+
+
+/*html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}*/
+
+
+
+body{
+	/*background-color: rgb(241,241,241);*/
+	background-color: #f7f9fb;
+	margin-bottom: 10em;
+}
+
+
+
+aside{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 48px;
+	background: linear-gradient(to bottom, #7bcde0 0%, #7be3cd 100%);
+	
+	
+	
+}
+
+
+.bord_size{
+	box-sizing: border-box;
+}
+
+.grid{
+	width: 96%;
+	background-color: #fff;
+	position: absolute;
+	right: 0;
+}
+
+#logo{
+	text-align: center;
+}
+
+#nav_left{
+	height: 140px;
+	padding-left: 3em;
+	padding-top: 4em;
+}
+
+#nav_right{
+	height: 140px;
+	padding-right: 3em;
+	padding-top: 4em;
+}
+
+.nav_items{
+
+}
+
+.nav_items li{
+	list-style: none;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+.nav_items li a{
+	color: #404040;
+	text-decoration: none;
+}
+
+.nav_items li a:link{
+	color: #404040;
+}
+
+.nav_items li a:visited{
+	color: #404040;
+}
+
+.nav_items li a:hover{
+	background: -webkit-linear-gradient(#7bcde0 , #7be3cd);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.nav_items li a:active{
+
+}
+
+.selected{
+	background: -webkit-linear-gradient(#7bcde0 , #7be3cd);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+#main_logo{
+	 height: 150px;
+}
+
+#image{
+	/*padding-left: 3em;*/
+}
+
+#header{
+	border-bottom: .1em solid lightgrey;
+	margin-bottom: 10em;
+}
+
+#face{
+	height: 100px;
+	position: relative;
+	text-align: center;
+}
+
+#me{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	bottom: 100px;
+	border-radius: 50%;	
+}
+
+#intro{
+	text-align: center;
+}
+
+#intro h1, h4{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+#intro h1{
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+#form{
+
+
+}
