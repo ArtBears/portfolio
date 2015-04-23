@@ -1,0 +1,6 @@
+My portfolio can be found on my Github https://github.com/ArtBears/portfolio
+Or you can see my website that I built at glynegittens.com
+
+The Applio Website Will not allow me to upload a folder filled with files. 
+As a programmer, a lot of my source code is found in different folders and
+will not work with Applio’s current architecture. 

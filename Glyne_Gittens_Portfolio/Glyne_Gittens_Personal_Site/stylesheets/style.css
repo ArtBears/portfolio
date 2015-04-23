@@ -1,0 +1,319 @@
+/*		Begin Reset		*/
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}table{border-collapse:collapse;border-spacing:0;}
+/*		End Reset		*/
+
+
+.wrapper{
+	margin-bottom: 5em;;
+}
+
+.icon{
+	height: 7em;
+	text-align: center;
+}
+
+.icon > img{
+	width: 7em;
+	height: 100%;
+}
+
+.main{
+	box-shadow: 2px 4px 12px 5px rgba(0,0,0,0.75);
+	background-color: rgba(241, 241, 241, 0.0);
+}
+
+
+/*----------------------------------------*/
+/*----- Tabs -----*/
+.tabs {
+    width:100%;
+    display:inline-block;
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links{
+    	padding-left: 23em;
+    }
+
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 	
+    .tab-links li {
+        margin:3px 5px 0 5px;
+        float:left;
+        list-style:none;
+    }
+ 
+        .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#f1f1f1;
+            font-size:16px;
+            font-weight:600;
+            color:#000;
+            box-shadow: 6px 1px 10px rgba(0,0,0,0.5);
+            transition:all linear 0.15s;
+        }
+ 
+        .tab-links a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        }
+
+    li.active a, li.active a:hover {
+        background:#fff;
+        background: #333;
+        color:#4c4c4c;
+        color: #fff;
+        box-shadow: 3px 1px 10px rgba(0,0,0,0.5);
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px 0 15px 0;
+        border-radius:3px;
+        background:#fff;
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
+
+        #image{
+        	position: relative;
+        	width: 100%;
+        }
+
+			.banner_desc{
+        		position: absolute;
+        		color: white;
+        		display: none;
+        		font-size: 36px;
+        		top: 4em;
+        		left: 4em;
+        	}
+
+        .paragraph{
+        	box-sizing: border-box;
+        	height: 320px;
+        	padding: 6em 0 0 0;
+        	text-align: justify-all;
+        	margin-bottom: 4em;
+        }
+
+        .paragraph h1{
+        	font-weight: bold;
+        	font-size: 1.5em;
+        }
+
+        .summary{
+
+        	text-align: justify;
+        	line-height: 1.5em;
+        }
+
+		.summary_2{
+        	font-family: 'ABeeZee', sans-serif;
+        }
+		
+
+        #profiles{
+        	box-sizing: border-box;
+        }
+        	.contact{
+        		box-sizing: border-box;
+        		display: inline;
+        		float: left;
+        		width: 320px;
+        		height: 320px;
+        		padding: 1em 0 0 0;
+        		background-color: grey;
+        	}
+        		.foam{
+        			width: 128px;
+        			height: 128px;
+        			padding-left: 6.5em;
+        		}
+
+        			.foam + p{
+        				padding: 1em 1em 0 1em;
+        				color: white;
+        			}
+
+        			.foam + p > a{
+        				color: white;
+        			}
+
+        			#twitch{
+
+        			}
+
+        			#github{
+
+        			}
+        			#linked_in{
+
+        			}
+
+        /*		Resume Page 		*/
+        #resume{
+			list-style-type: circle;
+			font-family: 'ABeeZee', sans-serif;
+			font-size: 16px;        	
+        }
+
+        	#resume h1{
+        		font-size: 2em;
+        	}
+        	#resume h2{
+        		font-size: 1.5em;
+        	}
+        	#resume h3{
+        		font-size: 1.2em;
+        		font-weight: bold;
+        	}
+        	#resume h4{
+       			font-size: 1.10em;
+       			font-weight: bold;
+        	}
+
+        	.sect{
+        		margin-bottom: 3em;
+        		clear: both;
+        	}
+
+        	.resume_intro{
+        		text-align: center;
+        		margin-bottom: 5em;
+        	}
+
+        	.resume_header{
+        		border-bottom: 1px solid lightgrey;
+        		margin-bottom: 1em;
+        	}
+
+        	.experience{
+        		clear: both;
+        	}
+
+        		.exp_sect{
+        			width: 45%;
+        			float: left;
+        			padding: .5em .5em;
+        			position: relative;
+        			display: inline-block;
+        			box-sizing: border-box;
+        		}
+
+        			.exp_sect h4{
+
+        				padding-bottom: .5em;
+        				text-decoration: underline;
+        			}
+
+        			.exp_pos{
+        				margin-bottom: 2em;
+        				border-right: 1px solid black;
+        			}
+
+        				.res_info{
+        					box-sizing: border-box;
+        					padding-right: .8em;
+        				}
+
+        			.exp_pos:last-of-type{
+        				padding-bottom: 5em;
+        			}
+
+        			.res_date{
+        				clear: left;
+        				color: grey;
+        				font-size: .7em;
+        			}
+
+        			.exp_duties{
+
+        			}
+
+        			.exp_duties:first-of-type{
+        				padding-top: .7em;
+        			}
+            		.exp_duties:last-of-type{
+        				padding-top: 4em;
+        			}
+
+        				.exp_duties ul{
+        					list-style-type: circle;
+        				}
+
+               		.ci_duties{
+        				padding-top: 3.5em;
+        			}
+
+        				.ci_duties ul{
+        					list-style-type: circle;
+        				}
+
+        		.dots{
+        			width: 10%;
+        			text-align: center;
+        		}
+
+        	.education{
+
+        	}
+        		.education .exp_pos{
+        			padding-bottom: 0;
+        		}
+
+        		.education ul{
+        			list-style-type: circle;
+        		}
+
+        	.skills{
+
+        	}
+        		.box{
+        			border: 1px solid black;
+        		}
+
+        		.languages{
+        			margin-right: 15em;
+        		}
+
+        		.software{
+        			vertical-align: top;
+        		}
+
+        		.languages, .software {
+        			display: inline-block;
+
+        		}
+	        		.languages h3, .software h3 {
+	        			border-bottom: 2px solid lightgrey;
+	        			margin-bottom: .5em;
+
+        			}
+        			.languages ul, .software ul{
+        				display: inline-block;
+        				list-style-type: circle;
+        			}
+        				.languages ul li, .software ul li{
+        					list-style-type: circle;
+        					margin-left: 3em;
+        				}
+
+
+
+
+

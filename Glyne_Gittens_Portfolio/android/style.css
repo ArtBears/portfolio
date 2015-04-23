@@ -1,0 +1,112 @@
+div{
+    margin: 0;
+    padding: 0;
+}
+div div{
+    background-color: #A4CA39; 
+    position: relative;
+}
+
+.andrhead {
+    width: 220px;
+    height: 125px;
+    margin: 50px auto;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    top: 42px;
+    
+    transition: all 0.1s ease-in;
+    
+}
+
+#main {
+    height: 410px;
+    width: 334px;
+    
+    margin: 100px auto;
+}
+
+.l_eye, .r_eye {
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;    
+/*    margin: 75px 100px 10px 50px;*/
+    position: absolute;
+    top: 42px;
+}
+
+.l_eye{ left: 50px;}
+.r_eye{ right: 50px;}
+
+.l_antenna, .r_antenna{
+    width: 6px;
+    height: 50px;
+    position: absolute;
+    top: -32px;
+    border-radius: 3px;
+    background-color: #A4CA39;
+}
+
+.l_antenna{
+    left: 50px;
+    transform: rotate(-30deg);
+}
+.r_antenna{
+    right: 50px;
+    transform: rotate(30deg);
+}
+.body {
+    width: 220px;
+    height: 184px;
+    margin: 0px auto;
+    border-radius: 0 0 25px 25px;
+    
+}
+
+.l_arm, .r_arm {
+    
+    height: 184px;
+    width: 50px;
+    position: absolute;
+    border-radius: 25px;
+}
+
+.l_arm {
+    left: -60px;
+    transition: all .5s ease-in; 
+}
+
+.r_arm {
+    right: -60px;
+    transition: all .5s ease-in;
+}
+
+.l_leg, .r_leg{
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    
+    border-radius: 0 0 25px 25px;
+    bottom: -70px;
+}
+
+.l_leg{
+    left: 35px;
+}
+
+.r_leg{
+    right: 35px;
+}
+
+.andrhead:hover{
+    transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.l_arm:hover{
+    transform: rotate(5deg) translateX(-8px);
+}
+
+.r_arm:hover{
+    transform: rotate(-5deg) translateX(8px);
+}
